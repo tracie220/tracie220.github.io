@@ -58,5 +58,5 @@ h1 {
 
 /* Change background color of buttons on hover */
 .nav-tabs button:hover {
-  background-color: #ddd;
+  background-color: lightgray;
 }
