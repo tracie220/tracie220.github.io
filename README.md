@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## All About Tracie Roettger
 
-You can use the [editor on GitHub](https://github.com/tracie220/tracie220.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Welcome to my website to help you see what projects I have worked on in the past, and give you an idea of what I can bring to your company.
 
 ### Markdown
 
