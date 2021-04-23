@@ -49,20 +49,21 @@
         </li>
     </ul>-->
 
-    <ul class="tabs">
-        <li><a class="active" href="#home">Home</a></li>
-            <!--<p>The purpose of this website is to show you what projects I have worked on in the past and display my skill sets.</p>
-            <p>I am--> <!--double majoring in Marketing and Management Information Systems at the University of Oklahoma. I have a variety of career interests and would love to see what you can offer me.</p>-->
-        <li><a href="#about">About</a></li>
+    <!--<ul>
+        <li><a class="active" href="#home">Home</a></li>-->
+        <!--<p>The purpose of this website is to show you what projects I have worked on in the past and display my skill sets.</p>
+        <p>I am-->
+        <!--double majoring in Marketing and Management Information Systems at the University of Oklahoma. I have a variety of career interests and would love to see what you can offer me.</p>-->
+        <!--<li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skill-sets">Skill sets</a></li>
         <li><a href="#employment-history">Employment History</a></li>
-    </ul>
+    </ul>-->
 
 
 
 
-    <!--<div class="tabs">
+    <div class="tabs">
         <button> class="tablinks" onclick="openTab(event, 'Home')">Home</button>
         <button> class="tablinks" onclick="openTab(event, 'About')">About</button>
         <button> class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
@@ -97,7 +98,23 @@
             <li>Couch Restaurants, Norman, OK</li>
             <li>Westview Cottages, Guthrie, OK</li>
         </ul>
-    </div>-->
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabtitle, tablinks;
+            tabtitle = document.getElementsByClassName("tabtitle");
+            for (i = 0; i < tabtitle.length; i++) {
+                tabtitle[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
 
 </body>
 </html>
