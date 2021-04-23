@@ -5,113 +5,93 @@
     <link rel="stylesheet" type="text/css" href="sheet.css" />
 </head>
 <body>
-    <!--<ul class="nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" href="#home"> Home</a>
-    <div class="main-container">
+
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+
+        <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+        <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+
+        <button class="tablinks" onclick="openTab(event, 'Skill sets')">Skill sets</button>
+
+        <button class="tablinks" onclick="openTab(event, 'Employment History')">Employment History</button>
+
+    </div>
+
+    <p style="font-size: 16px"> Select the tab you would like to learn more about.</p>
+
+    <div id="Home" class="tabcontent">
         <div class="header">
             <h1>Tracie's Website</h1>
+            <div id="Headshot">
+                <img style="height: 300px" src="C:\Users\Tracie\Pictures\Headshots\IMG_3025_edited (2).jpg" />
+            </div>
         </div>
         <div class="main-content">
             <p>Hi, my name is Tracie Roettger. Welcome to my website.</p>
         </div>
-    </div>
-    <p>The purpose of this website is to show you what projects I have worked on in the past and display my skill sets.</p>
-            <p>I am double majoring in Marketing and Management Information Systems at the University of Oklahoma. I have a variety of career interests and would love to see what you can offer me.</p>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#about"> About</a>
-            <p>
-                I have career interests in social media marketing, website design, small business consulting, and graphic design.
-                My experience as a Lifetime Girl Scout has also given me a strong desire to serve my community. I have a passion for small business management and I want to help entrepreneurs grow their businesses in any way I can.
-            </p>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#projects"> Projects</a>
-            <ul>
-                <li>Grade Calculator</li>
-                <li>Homework 5</li>
-            </ul>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#skill-sets"> Skill sets</a>
-            <p>I have experience coding in C# through Visual Studio and utilizing Github repositories to store and upload data.</p>
-            <p>I am a good listener with a desire to make others feel valued and involved. My leadership style is built on Empathy along with completing tasks.</p>
-            <p>I am a diligent worker who strives for excellence in everything I do.</p>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#employment-history"> Employment History</a>
-            <ul>
-                <li>Goldman Sachs, Dallas, TX</li>
-                <li>Couch Restaurants, Norman, OK</li>
-                <li>Westview Cottages, Guthrie, OK</li>
-            </ul>
-        </li>
-    </ul>-->
-
-    <!--<ul>
-        <li><a class="active" href="#home">Home</a></li>-->
-        <!--<p>The purpose of this website is to show you what projects I have worked on in the past and display my skill sets.</p>
-        <p>I am-->
-        <!--double majoring in Marketing and Management Information Systems at the University of Oklahoma. I have a variety of career interests and would love to see what you can offer me.</p>-->
-        <!--<li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skill-sets">Skill sets</a></li>
-        <li><a href="#employment-history">Employment History</a></li>
-    </ul>-->
-
-
-
-
-    <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
-        <button class="tablinks" onclick="openTab(event, 'About')">About</button>
-        <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
-        <button class="tablinks" onclick="openTab(event, 'Skill sets')">Skill sets</button>
-        <button class="tablinks" onclick="openTab(event, 'Employment History')">Employment History</button>
+        <p style="font-size: 18px">The purpose of this website is to show you what projects I have worked on in the past and display my skill sets. Feel free to select the above tabs to learn a little more about me.</p>
     </div>
 
-    <div id="Home" class="tabcontent">
-        <p>The purpose of this website is to show you what projects I have worked on in the past and display my skill sets.</p>
-        <p>I am double majoring in Marketing and Management Information Systems at the University of Oklahoma. I have a variety of career interests and would love to see what you can offer me.</p>
-    </div>
     <div id="About" class="tabcontent">
+
+        <p>
+            I am double majoring in Marketing and Management Information Systems at the University of Oklahoma. I have a variety of career interests and would love to see what you can offer me.
+        </p>
         <p>
             I have career interests in social media marketing, website design, small business consulting, and graphic design.
             My experience as a Lifetime Girl Scout has also given me a strong desire to serve my community. I have a passion for small business management and I want to help entrepreneurs grow their businesses in any way I can.
         </p>
     </div>
+
     <div id="Projects" class="tabcontent">
         <ul>
-            <li>Grade Calculator</li>
-            <li>Homework 5</li>
+            <li>OU Student Handout</li>
+            <img style="height: 300px" "float: right;" src="C:\Users\Tracie\Downloads\Student Homework 2.PNG" />
+            <li>HTML and CSS implementation</li>
+            <img style="height: 350px" src="C:\Users\Tracie\Downloads\Homework 5.PNG" />
+            <li>Game of Thrones Quote retrieval</li>
+            <img style="height: 325px" src="C:\Users\Tracie\Downloads\GOT Quote.PNG" />
         </ul>
     </div>
-    <div id="Skill set" class="tabcontent">
+    <div id="Skill sets" class="tabcontent">
         <p>I have experience coding in C# through Visual Studio and utilizing Github repositories to store and upload data.</p>
         <p>I am a good listener with a desire to make others feel valued and involved. My leadership style is built on Empathy along with completing tasks.</p>
         <p>I am a diligent worker who strives for excellence in everything I do.</p>
     </div>
     <div id="Employment History" class="tabcontent">
         <ul>
-            <li>Goldman Sachs, Dallas, TX</li>
-            <li>Couch Restaurants, Norman, OK</li>
-            <li>Westview Cottages, Guthrie, OK</li>
+            <li><b>Goldman Sachs, Dallas, TX</b></li>
+            <ul>
+                <li><i>Incoming Investment Banking Operations Summer Analyst</i></li>
+                <img style="height: 200px" src="C:\Users\Tracie\Downloads\Goldman Sachs logo.png" />
+            </ul>
+            <li><b>Couch Restaurants, Norman, OK</b></li>
+            <ul>
+                <li><i>Student Manager</i></li>
+                <img style="height: 100px" src="C:\Users\Tracie\Downloads\OUHousingFood.png" />
+            </ul>
+            <li><b>Westview Cottages, Guthrie, OK</b></li>
+            <ul>
+                <li><i>Business Services Associate</i></li>
+                <img style="height: 150px" src="C:\Users\Tracie\Downloads\WestviewCottagesLogo.png" />
+            </ul>
         </ul>
     </div>
 
+
     <script>
-        function openTab(evt, tabName) {
-            var i, tabtitle, tablinks;
-            tabtitle = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabtitle.length; i++) {
-                tabtitle[i].style.display = "none";
+        function openTab(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
             }
-            tablinks = document.getElementsByClassName("tabcontent");
+            tablinks = document.getElementsByClassName("tablinks");
             for (i = 0; i < tablinks.length; i++) {
                 tablinks[i].className = tablinks[i].className.replace(" active", "");
             }
-            document.getElementById(tabName).style.display = "block";
+            document.getElementById(cityName).style.display = "block";
             evt.currentTarget.className += " active";
         }
     </script>
