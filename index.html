@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="sheet.css" />
 </head>
 <body>
-    <ul class="nav-tabs">
+    <!--<ul class="nav-tabs">
         <li class="nav-item">
             <a class="nav-link active" href="#home"> Home</a>
     <div class="main-container">
@@ -47,15 +47,59 @@
                 <li>Westview Cottages, Guthrie, OK</li>
             </ul>
         </li>
-    </ul>
-
-    <!--<ul>
+    </ul>-->
+    <!--<ul class="tabs">
         <li><a class="active" href="#home">Home</a></li>
+        <div>
+            <p>The purpose of this website is to show you what projects I have worked on in the past and display my skill sets.</p>
+            <p>I am double majoring in Marketing and Management Information Systems at the University of Oklahoma. I have a variety of career interests and would love to see what you can offer me.</p>
+        </div>
         <li><a href="#about">About</a></li>
+
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skill-sets">Skill sets</a></li>
         <li><a href="#employment-history">Employment History</a></li>
     </ul>-->
+
+
+
+
+    <div class="tabs">
+        <button> class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+        <button> class="tablinks" onclick="openTab(event, 'About')">About</button>
+        <button> class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+        <button> class="tablinks" onclick="openTab(event, 'Skill sets')">Skill sets</button>
+        <button> class="tablinks" onclick="openTab(event, 'Employment History')">Employment History</button>
+    </div>
+
+    <div id="Home" class="tabtitle">
+        <p>The purpose of this website is to show you what projects I have worked on in the past and display my skill sets.</p>
+        <p>I am double majoring in Marketing and Management Information Systems at the University of Oklahoma. I have a variety of career interests and would love to see what you can offer me.</p>
+    </div>
+    <div id="About" class="tabtitle">
+        <p>
+            I have career interests in social media marketing, website design, small business consulting, and graphic design.
+            My experience as a Lifetime Girl Scout has also given me a strong desire to serve my community. I have a passion for small business management and I want to help entrepreneurs grow their businesses in any way I can.
+        </p>
+    </div>
+    <div id="Projects" class="tabtitle">
+        <ul>
+            <li>Grade Calculator</li>
+            <li>Homework 5</li>
+        </ul>
+    </div>
+    <div id="Skill set" class="tabtitle">
+        <p>I have experience coding in C# through Visual Studio and utilizing Github repositories to store and upload data.</p>
+        <p>I am a good listener with a desire to make others feel valued and involved. My leadership style is built on Empathy along with completing tasks.</p>
+        <p>I am a diligent worker who strives for excellence in everything I do.</p>
+    </div>
+    <div id="Employment History" class="tabtitle">
+        <ul>
+            <li>Goldman Sachs, Dallas, TX</li>
+            <li>Couch Restaurants, Norman, OK</li>
+            <li>Westview Cottages, Guthrie, OK</li>
+        </ul>
+    </div>
 
 </body>
 </html>
